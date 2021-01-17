@@ -10,7 +10,7 @@ Arguments:
 
 x: Character string or column of text. This should be the independent variable in your naive bayes model. 
 
-y: Character/factor string or column of text. This should be the independent variable in your naive bayes model. If inputed as a character it will be converted to a factor. 
+y: Character/factor string or column of text. This should be the dependent variable in your naive bayes model. If inputed as a character it will be converted to a factor. 
 
 train_percent: What percent of the data will be used to train the model. Test_percent is just 1-train_percent. Default is .75
 
