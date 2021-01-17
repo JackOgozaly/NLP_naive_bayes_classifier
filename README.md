@@ -9,9 +9,13 @@ naive_bayes(x, y, train_percent=.75, plot= TRUE, print_classifier= TRUE)
 Arguments: 
 
 x: Character string or column of text. This should be the independent variable in your naive bayes model. 
+
 y: Character/factor string or column of text. This should be the independent variable in your naive bayes model. If inputed as a character it will be converted to a factor. 
+
 train_percent: What percent of the data will be used to train the model. Test_percent is just 1-train_percent. Default is .75
+
 plot: True or False. If true displays a confusion matrix, if false displays a crosstable. Default is TRUE. 
+
 print_classifier: True or False. If true it exports the naive_bayes_classifier to your global environment. If false does nothing. Default is TRUE. 
 
 Built on 
